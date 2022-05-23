@@ -14,17 +14,18 @@
 					<span class="logo-text">Coffee Shop</span>
 				</div>
 	 			<nav class="coffee-nav">
-					<a href="#">Home</a>
-					<a href="#">Product</a>
-					<a href="#">Price</a>
-					<a href="#">About</a>
+					<a href="formsubmitcoffeeshop.php">Home</a>
+					<a href="#productlist">Product</a>
+					<a href="#ordernow">Order now</a>
 				</nav>
 			</header>
 			<div class="site-content">
 				<div class="image-content">
 					<h1 class="quote">Coffee is the best thing to douse the sunrise with.</h1>
 				</div>
+				
 				<div class="card-list">
+					<a id="productlist"></a>
 					<h1 id="product">Product</h1>
 					<div class="card">
 						<img src="mocha-image.png">
@@ -55,6 +56,7 @@
 						</div>
 					</div>
 				</div>
+				<a id="ordernow">Order now</a>
 				<div class="order-section">
 					<h1 id="order">Order</h1>
 					<form class="form" action="insertcoffeeshop.php" method="post">
