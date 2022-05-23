@@ -1,0 +1,12 @@
+.success{
+	color:white;
+	font-family: "Helvetica Neue";
+	position: relative;
+	top:10%;
+}
+.image-content{
+	background-image: url("background-image.jpg");
+	height: 700px;
+	width: 100%;
+	text-align: center;
+}
