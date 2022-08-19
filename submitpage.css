@@ -1,12 +1,37 @@
+body{
+	msrgin:0px;
+}
 .success{
 	color:white;
 	font-family: "Helvetica Neue";
 	position: relative;
-	top:10%;
+	top:20%;
 }
 .image-content{
+	top:0px;
 	background-image: url("background-image.jpg");
 	height: 700px;
 	width: 100%;
 	text-align: center;
+}
+
+.div-logo{
+	height:100%;
+	text-align: center;
+	margin:10px;
+	float:center;
+}
+.coffee-header{
+	position: fixed;
+	left:0px;
+	right:0px;
+	height:100px;
+	width: 100%;
+	z-index: 100;
+	background-color:black;
+}
+.button1{
+	top:5%;
+	color: white;
+	background-color: black;
 }

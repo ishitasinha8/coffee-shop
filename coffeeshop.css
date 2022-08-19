@@ -87,9 +87,11 @@ body{
 	margin: 10px;
 	align-content: center;
 	display: block;
+	color:grey;
 }
 .form input:hover{
-	background-color: #0a2d42;
+	background-color: #1a8cff;
+	color:white;
 }
 #submit{
 	color: #0a2d42;
